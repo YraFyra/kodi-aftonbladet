@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="plugin.video.aftonbladet" name="Aftonbladet TV" version="1.0.0" provider-name="YraFyra">
+	<requires>
+                <import addon="script.module.parsedom" version="1.2.0"/>
+                <import addon="script.module.requests" version="2.9.1"/>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Aftonbladet TV</summary>
+		<description lang="sv">Aftonbladet TV - Svenska klipp. Denna plugin har ingen support fran Aftonbladet och ar inte heller godkand av Aftonbladet.</description>
+		<description lang="en">Aftonbladet TV - Swedish newspaper. This plugin has no support from Aftonbladet and is not approved by Aftonbladet.</description>
+		<license>GNU General Public License, v3</license>
+		<language></language>
+		<email>yrafyra@gmail.com</email>
+	</extension>
+</addon>
